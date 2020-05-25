@@ -1,5 +1,5 @@
-name: Jekyll Bulma
-description: "Jekyll Bulma Theme, Bulma.io CSS Framework Jekyll Template for Developers"
+name: Min$eok-HUB
+description: "그냥 생 초보의 개발 일기도 아닌 그냥 내가 궁금한거 적는 블로그!"
 baseurl: "" # the subpath of your site, e.g.
 url: https://minseok-hub.github.io
 download: "https://github.com/erayaydin/jekyll-bulma/archive/master.zip"
