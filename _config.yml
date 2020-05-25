@@ -4,18 +4,18 @@ baseurl: "" # the subpath of your site, e.g.
 url: https://minseok-hub.github.io
 download: "https://github.com/erayaydin/jekyll-bulma/archive/master.zip"
 social:
-  github: erayaydin
-  email: aydineray@mail.com
+  github: minseok-hub
+  email: minseock5202@gmail.com
   facebook:
-  twitter: erayaydi
+  twitter: 
   instagram:
   tumblr:
 author:
-  name: Eray AYDIN
-  bio: "Senior PHP Developer and Linux System Administrator, Free Software Fan, Archy (On Way Trust User), Junior Game Developer"
-  email: aydineray@mail.com
+  name: minseok-hub blog
+  bio: "걍 생 초보 그냥 초보 개발자 하지만 멋진 시니어개발자가 되고 싶음."
+  email: minseock5202@gmail.com
   image: /assets/images/author.jpg
-  github: erayaydin
+  github: minseok-hub
   facebook: erayaydi
   twitter: erayaydi
   instagram:
