@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="icon" href="{{ "/assets/images/favicon.png" | prepend: site.baseurl }}">
+    <link rel="icon" href="{{ "/assets/images/log.png" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -73,7 +73,7 @@
           Blog
           </a>
           <a href="{{ "/categories" | prepend: site.baseurl }}" class="navbar-item {% if page.url == "/categories/" %} is-active {% endif %}">
-          Kategoriler
+          Category
           </a>
         </div>
         <div class="navbar-end">
@@ -212,7 +212,7 @@
 <script>
 (function() {
     var d = document, s = d.createElement('script');
-    s.src = '//aydineray.disqus.com/embed.js';
+    s.src = '//minseok-hub-github-io.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
 })();
