@@ -5,10 +5,10 @@ layout: default
     <div class="hero-body">
         <div class="container is-fluid">
             <h1 class="title">
-                Blog
+                나의 개발 블로그!
             </h1>
             <h2 class="subtitle">
-                Keep It Simple, Stupid.
+                걍 계속 꾸주니이 하자, Keep Going!
             </h2>
         </div>
     </div>
@@ -40,8 +40,8 @@ layout: default
         <br>
         {% endfor %}
         <nav class="pagination is-centered">
-            <a {% if paginator.previous_page %}href="..{{  paginator.previous_page_path }}"{% endif %} class="pagination-previous {% if paginator.previous_page %}{% else %} is-disabled {% endif %}">Önceki Yazılar</a>
-            <a {% if paginator.next_page %}href="..{{  paginator.next_page_path }}"{% endif %} class="pagination-next {% if paginator.next_page %}{% else %} is-disabled {% endif %}">Sonraki Yazılar</a>
+            <a {% if paginator.previous_page %}href="..{{  paginator.previous_page_path }}"{% endif %} class="pagination-previous {% if paginator.previous_page %}{% else %} is-disabled {% endif %}">이전</a>
+            <a {% if paginator.next_page %}href="..{{  paginator.next_page_path }}"{% endif %} class="pagination-next {% if paginator.next_page %}{% else %} is-disabled {% endif %}">다음</a>
             <ul class="pagination-list">
                 {% for page in (1..paginator.total_pages) %}
                 <li>
