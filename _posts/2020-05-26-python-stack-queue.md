@@ -3,7 +3,7 @@ layout: post
 title: 파이썬 스택과 큐!
 description: 파이썬에서 스택과 큐는 어떻게 되어 있을까?
 categories:
-- python
+    - python
 comments: true
 permalink: python-stack-queue.html
 ---
