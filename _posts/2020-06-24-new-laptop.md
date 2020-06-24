@@ -5,7 +5,7 @@ description: 새 노트북에 gitblog를 설치해보자!
 categories:
     - github_blog
 comments: true
-permalink: helloworld.html
+permalink: new_laptop_install_gitblog.html
 ---
 ## Github Blog 설치
 
