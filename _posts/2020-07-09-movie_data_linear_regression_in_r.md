@@ -16,6 +16,8 @@ permalink: movie_data_linear_regression_in_R.html
 > *  운영체제: windows10
 > * 사용언어: R
 
+
+
 [TOC]
 
 ## 1. 개요
