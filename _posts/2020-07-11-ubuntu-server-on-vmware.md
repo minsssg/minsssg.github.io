@@ -37,7 +37,7 @@ VMware를 설치했으니 VMware에서 작동시킬 운영체제를 다운 받�
 
 **Ubuntu Server** 이미지는 [ubuntu사이트](https://ubuntu.com/download/server)에서 무료로 받을 수 있다. 근데 벌써 Ubuntu Server 20.04 LTS라니..., 시간 참 빠른 것 같다.
 
-![](/assets/images/ubuntu_on_vmware/ubuntu_server_다운로드사진.PNG)
+![우분투서버다운로드](/assets/images/ubuntu_on_vmware/ubuntu_server_download.PNG)
 
 그리고 Download를 눌러서 다운받자.
 
@@ -47,7 +47,7 @@ VMware를 설치했으니 VMware에서 작동시킬 운영체제를 다운 받�
 
 1. [Create a New Virtual Machine]을 클릭한다.
 
-   ![VMware실행사진](/assets/images/ubuntu_on_vmware/VMware실행사진.PNG)
+   ![VMware실행사진](/assets/images/ubuntu_on_vmware/VMware_run.PNG)
 
 2.  Browse를 눌러서 설치한 iso파일을 불러온다.
 
