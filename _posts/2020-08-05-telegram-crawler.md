@@ -47,7 +47,20 @@ pip install python-telegram-bot
 
 이제 python 코드를 작성해 보겠습니다. 먼저 모든 상품정보를 담을 수 있는 클래스 생성해 보겠습니다.
 
+상품정보 클래스에는 다음과 같은 정보를 넣습니다.
+
+* 상품명
+* 할인 가격
+* 원 가격
+* 할인률
+* 제품 상세 링크
+
+그리고 ```getter``` 메서드를 생성해줍니다.
+
 ```python
+#-*- coding: utf-8 -*-
+# goods.py
+
 class Goods:
     # 상품정보 클래스
     def __init__(self,
@@ -58,7 +71,7 @@ class Goods:
                  goods_link):
         self._goods_name = goods_name
         self._discounted_price = discounted_price
-        self._original_price = original_price
+        self._original_price = original_ice
         self._discount_rate = discount_rate
         self._goods_link = goods_link
         
@@ -87,10 +100,12 @@ class Goods:
         )
 ```
 
-상품정보 클래스 생성 후, 전체상품을 크롤링하는 함수를 작성합니다.
+상품정보 클래스 생성 후, 전체상품을 크롤링하는 함수를 작성합니다. selenium의 ```driver```를 인자로 받습니다. 아까 복사해둔 XPath를 ```driver```의  ```find_element_by_xpath```인자로 넣어줍니다. ```BeautifulSoup```으로 ```HTML``` 을 parsing해줍니다. 이제 전체 상품정보의 각 상품의 간략한 정보를 가져옵니다. 전체 상품은 ```<li>```로 구성되어 있기 때문에 ```select```함수를 사용하여 ```<li>```태그가 붙은 모든 정보를 가져옵니다. 이제 각 상품의 세세한 정보를 가져올 수 있게 합니다.
 
 ```python
 #-*- coding:utf-8 -*-
+# goods.py
+
 from bs4 import BeautifulSoup
 
 def goodsALL(driver):
@@ -109,6 +124,26 @@ def goodsALL(driver):
     return goods_list
 ```
 
-<작성중>...
+```for```문 안에 good_info라는 변수에 정보를 담고 Goods 객체를 생성합니다. 그리고 모든 Goods객체를 list형태로 묶어서 반환합니다.
+
+## 3. 상세 상품 보기
+
+상품 Link를 통해서 상품의 자세한 정보를 크롤링해보겠습니다.
+
+![goods_info_detail](\assets\images\telegram_crawler\goods_info_detail.PNG)
+
+상품 정보는 다음과 같이 옵션이란 곳에 ```SelectBox```로 구성되어 있습니다.
+
+ ![goods_info_source](\assets\images\telegram_crawler\goods_info_source.PNG)
+
+상품의 정보를 확인해보면 ```SelectBox``` 안의 정보를 확인할 수 없습니다. ```javascript```로 되어 있기 때문에 ```Selenium```을 통해 크롤링합니다. 그리고 우선 **제품선택** 후, 두 번째 옵션인 **사이즈** 정보를 볼 수 있습니다.
+
+![goods_info_option_detail](\assets\images\telegram_crawler\goods_info_option_detail.png)
+
+
+
+
+
+
 
 오타 등 언제든 말씀해주십시오. 글 읽어 주셔서 감사합니다.
