@@ -1,4 +1,4 @@
-# minseok-hub.github.io
+# minsssg.github.io
 나의 첫 깃헙 블로그 실행기
 
 ## 깃블로그 시작!
