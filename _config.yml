@@ -1,21 +1,21 @@
-name: MinSeok-HUB
+name: Minsssg
 description: "그냥 생 초보의 개발 일기도 아닌 그냥 내가 궁금한거 적는 블로그!"
 baseurl: "" # the subpath of your site, e.g.
-url: https://minseok-hub.github.io
+url: https://minsssg.github.io
 download: "https://github.com/erayaydin/jekyll-bulma/archive/master.zip"
 social:
-  github: minseok-hub
+        github: minsssg
   email: minseock5202@gmail.com
   facebook:
   twitter: 
   instagram:
   tumblr:
 author:
-  name: minseok-hub blog
-  bio: "걍 생 초보 그냥 초보 개발자 하지만 멋진 시니어개발자가 되고 싶음."
+  name: minsssg blog
+  bio: "걍 생 초보 그냥 초보 개발자 하지만 멋진 시니어개발자가 되고 싶음. 민슥~블로그"
   email: minseock5202@gmail.com
   image: /assets/images/logo.jpg
-  github: minseok-hub
+  github: minsssg
   facebook: 
   twitter: 
   instagram:
