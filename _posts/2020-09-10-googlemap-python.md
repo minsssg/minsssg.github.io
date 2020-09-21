@@ -26,7 +26,7 @@ last_modified_at: 2020-09-10T13:00-18:00
 
 구글에서는 클라우드 플랫폼으로 다양한 서비스를 제공하고 있습니다. Tensorflow, Firebase, Analytics 등등 그 중에 [**구글 Maps 플랫폼**(google Maps Platform)](https://cloud.google.com/maps-platform?hl=ko)에서 지도와 관련된 API를 제공합니다.
 
-![maps_index_html]()
+![maps_index_html](https://i.imgur.com/3Esqnxj.png)
 
 이후 결제 수단을 등록하고 프로젝트를 만들고 사용할 API를 설정해주면 됩니다. 여기 [블로그](https://happist.com/568746/%EA%B5%AC%EA%B8%80%EB%A7%B5-%ED%99%9C%EC%9A%A9%EB%B2%95-%EA%B5%AC%EA%B8%80%EB%A7%B5-api-key-%EB%B0%9C%EA%B8%89%EB%B0%A9%EB%B2%95)에 자세히 나와있습니다.
 
@@ -46,15 +46,19 @@ https://maps.googleapis.com/maps/api/geocode/json?address=[주소]&key=[GEOCODIN
 
 **api_key** 에러
 
-![api_key_error]()
+![api_key_error](https://i.imgur.com/cTjVvhZ.png)
 
 예제를 비교해 보겠습니다. 예전 주소인 ```김포시 양촌면 마산리```, 현재 주소인 ```김포시 마산동``` 이 있습니다.
 
 예전 주소를 현재 주소로 반환해주는지 확인해보겠습니다.
 
-![김포시 마산동 검색]()
+**마산동 검색**
 
-![김포시 양촌면 마산리]()
+![김포시 마산동 검색](https://i.imgur.com/wc4T3ze.png)
+
+**양촌면 마산리 검색**
+
+![김포시 양촌면 마산리](https://i.imgur.com/uIqtmZC.png)
 
 포맷이 조금 다르긴 하지만 ```김포시 마산동```이란 글자를 얻을 수 있습니다.
 
