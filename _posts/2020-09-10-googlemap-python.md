@@ -80,7 +80,7 @@ result = response.read().decode()
 json_result = json.loads(result)
 ```
 
-파이썬은 코드에서 API를 불러올려면 다음과 같다. 검색할 주소와 API로 ```url```을 생성합니다. ```Request```객체를 생성하고 ```urlopen```함수를 통해 ```request```의 결과를 받아옵니다. 이를 ```json```형식으로 반환하는 코드입니다.
+파이썬은 코드에서 API를 불러올려면 다음과 같다. 검색할 주소와 API로 ```url```을 생성합니다. ```Request```객체를 생성하고 ```urlopen```함수를 통해 ```request```의 결과를 받아옵니다. 이를 ```json```형식으로 반환하는 코드입니다. [<span style="color: orange">주의! 과금 문제가 발생할 수 있으니 주의하세요!</span>](https://minsssg.github.io/python/api/googlemap-python/)(저보다 더 많이 나올 수 있습니다.)
 
 ## 5. 마무리
 
