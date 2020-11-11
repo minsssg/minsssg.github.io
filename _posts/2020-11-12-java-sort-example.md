@@ -56,11 +56,11 @@ class Student implements Comparable<Student> {
     @Override
     public int compareTo(Student other) {
         // 점수로 내림차순
-        if (this.score > other.score) {
+        if (this.score < other.score) {
             return 1;
         } else if (this.score == other.score) {
             // 점수가 같을 땐 이름으로 오름차순
-            if (this.name.compareTo(other.name) < 0) {
+            if (this.name.compareTo(other.name) > 0) {
                 return 1;
             }
         }
