@@ -71,6 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  color : #79B3DC;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -83,6 +84,11 @@ body {
 }
 
 .page__content {
+  h1 {
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid $border-color
+  }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
