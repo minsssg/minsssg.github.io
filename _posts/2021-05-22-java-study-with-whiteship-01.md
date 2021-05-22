@@ -73,7 +73,7 @@ public class HelloWorld {
 javac HelloWorld.java
 ```
 
-![자바컴파일](\assets\images\java-study\1\자바컴파일.png)
+![자바컴파일](\assets\images\java-study\1\java-compile.png)
 
 컴파일 결과 ```HelloWorld.class```가 생성된 것을 볼 수 있다. 자바에서는 `.class`이 **바이트코드**이다.
 
@@ -83,7 +83,7 @@ javac HelloWorld.java
 javap -c HelloWorld
 ```
 
-![자바역컴파일](\assets\images\java-study\1\자바역컴파일.png)
+![자바역컴파일](\assets\images\java-study\1\java-decompile.png)
 
 다음으로 바이트코드를 실행하는 방법을 알아보자.
 
@@ -95,7 +95,7 @@ javap -c HelloWorld
 java HelloWorld
 ```
 
-![자바실행](\assets\images\java-study\1\자바실행.png)
+![자바실행](\assets\images\java-study\1\java-run.png)
 
 **자바 프로그램 실행 과정**
 
@@ -119,7 +119,7 @@ java HelloWorld
 
 이렇게 두 번 컴파일하는 이유는 **machine-independent** 을 위한 것이라고 한다. 이렇게 하면 어떤 cpu, os에서 실행할 수 있다는 것이다.
 
-![jit컴파일러](\assets\images\java-study\1\jit컴파일러.png)
+![jit컴파일러](\assets\images\java-study\1\jit-compiler.png)
 
 출처: https://bloofer.tistory.com/21
 
