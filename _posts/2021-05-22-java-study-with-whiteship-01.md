@@ -125,7 +125,7 @@ java HelloWorld
 
 # JVM 구성 요소😵
 
-![JVM구성요소](\assets\images\java-study\1\JVM구성요소.png)
+![JVM구성요소](\assets\images\java-study\1\JVM-configuration.png)
 
 * **Class Loader**
 
