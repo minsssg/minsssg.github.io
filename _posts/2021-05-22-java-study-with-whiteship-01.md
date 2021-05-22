@@ -73,7 +73,7 @@ public class HelloWorld {
 javac HelloWorld.java
 ```
 
-![자바컴파일](\assets\images\java-study\1\java-compile.png)
+![자바컴파일](\assets\images\java-study\1\java-compile.PNG)
 
 컴파일 결과 ```HelloWorld.class```가 생성된 것을 볼 수 있다. 자바에서는 `.class`이 **바이트코드**이다.
 
@@ -83,7 +83,7 @@ javac HelloWorld.java
 javap -c HelloWorld
 ```
 
-![자바역컴파일](\assets\images\java-study\1\java-decompile.png)
+![자바역컴파일](\assets\images\java-study\1\java-decompile.PNG)
 
 다음으로 바이트코드를 실행하는 방법을 알아보자.
 
@@ -95,7 +95,7 @@ javap -c HelloWorld
 java HelloWorld
 ```
 
-![자바실행](\assets\images\java-study\1\java-run.png)
+![자바실행](\assets\images\java-study\1\java-run.PNG)
 
 **자바 프로그램 실행 과정**
 
