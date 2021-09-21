@@ -1,6 +1,6 @@
 ---
 title: 자바스터디 2주차
-excerpt: 2주차 과제: 자바 데이터 타입, 변수 그리고 배열
+excerpt: "2주차 과제: 자바 데이터 타입, 변수 그리고 배열"
 author_profile: true
 categories:
   - JAVA
@@ -11,7 +11,7 @@ toc_sticky: true
 toc_label: "페이지 목차"
 last_modified_at: 2021-09-18T21:00-22:00
 header:
-  teaser: "/assets/images/java-teaser.jpg
+  teaser: "/assets/images/java-teaser.jpg"
 ---
 
 # 개요🙌
@@ -147,7 +147,7 @@ Class stringClass = String.class;
 
 >  `Class`클래스에 대해서도 추후에 정리해보자
 
-## 언더스코어(Underscore, "_") 
+## 언더스코어(Underscore) 
 
 언더스코어("_") 문법은 java 7버전부터 도입 되었다. 언더스코어는 숫자 리터럴에서 숫자 사이에 언더스코어를 삽입할 수 있는데, 큰 수를 표현하는데 가독성에 도움을 준다.
 
