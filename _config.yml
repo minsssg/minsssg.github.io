@@ -23,7 +23,7 @@ name                     : "김민석"
 description              : "개발을 쓱쓱 잘하고 싶어서 쓰는 민쓱이의 쓱로그!"
 url                      : "https://minsssg.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "minsssg/minsssg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/lionel-hesry-zj7RXPg7yRU-unsplash.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -42,7 +42,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : "github-light" # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    issue_term           : "pathname" # "pathname" (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
