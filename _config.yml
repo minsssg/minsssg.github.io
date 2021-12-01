@@ -22,7 +22,7 @@ subtitle                 : "민쓱이의 블로그, 개발 공부일지" # site 
 name                     : "김민석"
 description              : "개발을 쓱쓱 잘하고 싶어서 쓰는 민쓱이의 쓱로그!"
 url                      : "https://minsssg.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/hello" # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/lionel-hesry-zj7RXPg7yRU-unsplash.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
