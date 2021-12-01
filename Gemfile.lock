@@ -87,7 +87,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 3.9)
+  jekyll (>= 3.7, < 5.0)
   kramdown-parser-gfm
   minimal-mistakes-jekyll
   tzinfo
