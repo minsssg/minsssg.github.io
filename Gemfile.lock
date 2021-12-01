@@ -103,6 +103,7 @@ GEM
     tzinfo-data (1.2021.5)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -111,6 +112,7 @@ DEPENDENCIES
   minimal-mistakes-jekyll
   tzinfo
   tzinfo-data
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.2.32
