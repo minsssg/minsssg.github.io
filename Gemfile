@@ -1,6 +1,4 @@
-# Windows does not includegfm zoneinfo files, so bundle the tzinfo-data gem
-gem "jekyll", ">= 3.7", "< 5.0"
-gem "kramdown-parser-gfm"
 gem 'tzinfo'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+source "https://rubygems.org"
 gem "minimal-mistakes-jekyll"
