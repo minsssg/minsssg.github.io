@@ -2,10 +2,8 @@
 title: "블로그 테마 및 화면 바꾸기"
 excerpt: "요즘 공부도 통 안되고 정리도 안되어 있는 것 같고, 검은색도 지겨워서 블로그 색깔을 바꿔보았습니다."
 author_profile: true
-categories:
-  -jekyll
-tags:
-  -jekyll
+categories: [jekyll]
+tags: [jekyll]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

@@ -15,7 +15,7 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "cherry_blossom" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : ko-KR, en-US
 title                    : "쓱로그"
 title_separator          : "-"
 subtitle                 : "민쓱이의 블로그, 개발 공부일지" # site tagline that appears below site title in masthead
@@ -210,7 +210,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # 첫 페이지에 보여줄 최근 게시물 수를 지정
 paginate_path: /page:num/
-timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: #Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

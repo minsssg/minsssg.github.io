@@ -110,9 +110,8 @@ PLATFORMS
 
 DEPENDENCIES
   minimal-mistakes-jekyll
-  tzinfo
   tzinfo-data
-  wdm (>= 0.1.0)
+  wdm
 
 BUNDLED WITH
-   2.2.32
+   2.3.1
