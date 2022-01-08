@@ -3,9 +3,9 @@ title: 자바스터디 4주차
 excerpt: "4주차 과제: 자바 제어문"
 author_profile: true
 categories:
-  - JAVA
+  - Java
 tags:
-  - JAVA
+  - Java
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

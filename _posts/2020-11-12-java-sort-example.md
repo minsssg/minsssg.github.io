@@ -3,10 +3,10 @@ title: "JAVA 객체 정렬하기"
 excerpt: "JAVA 객체를 정렬해보자!"
 author_profile: true
 categories:
-  - JAVA
+  - Java
   - Algorithm
 tags:
-  - JAVA
+  - Java
   - Algorithm
 toc: true
 toc_sticky: true

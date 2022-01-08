@@ -3,9 +3,9 @@ title: "객체 생성자 제한하기"
 excerpt: "new 키워드 대신 static 매서드를 쓰자."
 author_profile: true
 categories:
-  - JAVA
+  - Java
 tags:
-  - JAVA
+  - Java
   - 리펙토링
 toc: true
 toc_sticky: true

@@ -3,9 +3,9 @@ title: "자바 Generics이란"
 excerpt: "자바 제네릭이란 무엇인가?"
 author_profile: true
 categories:
-  - JAVA
+  - Java
 tags:
-  - JAVA
+  - Java
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

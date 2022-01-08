@@ -3,9 +3,8 @@ title: 자바스터디 5주차
 excerpt: "5주차 과제: 클래스"
 author_profile: true
 categories:
-  - JAVA
-tags:
-  - JAVA
+  - Java
+tags:[Java, Class, this]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

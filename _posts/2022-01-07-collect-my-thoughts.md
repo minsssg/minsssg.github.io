@@ -3,7 +3,7 @@ title: 개발자 생각정리
 excerpt: "어떤 개발자가 되야할까?"
 author_profile: true
 categories: [생각정리]
-tags: [생각정리]
+tags: [생각정리, 개발자]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

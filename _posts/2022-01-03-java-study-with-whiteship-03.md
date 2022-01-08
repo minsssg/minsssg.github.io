@@ -3,9 +3,8 @@ title: 자바스터디 3주차
 excerpt: "3주차 과제: 자바 연산자"
 author_profile: true
 categories:
-  - JAVA
-tags:
-  - JAVA
+  - Java
+tags:[Java]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

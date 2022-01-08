@@ -3,9 +3,9 @@ title: "자바스터디 1주차"
 excerpt: "JVM은 무엇이며 자바코드는 어떻게 실행되는 것인가?"
 author_profile: true
 categories:
-  - JAVA
+  - Java
 tags:
-  - JAVA
+  - Java
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"
