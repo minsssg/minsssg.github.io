@@ -4,8 +4,7 @@ excerpt: "JVM은 무엇이며 자바코드는 어떻게 실행되는 것인가?"
 author_profile: true
 categories:
   - Java
-tags:
-  - Java
+tags: [Java, JVM, JDK, JRE]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"
@@ -36,13 +35,23 @@ header:
 
 # JVM 이란 무엇인가
 
-> JVM(Java Virtual Machine) 자바 **바이트코드**를 실행할 수 있는 주체이다. 일반적으로 **인터프리터**나 **JIT 컴파일 방식**으로 다른 컴퓨터 위에서 바이트코드를 실행할 수 있도록 구현 jop [자바 프로세서](https://ko.wikipedia.org/wiki/자바_프로세서)처럼 하드웨어와 소프트웨어를 혼합해 구현하는 경우도 있다. (이론적으로는 100% 하드웨어 구현도 가능하나 비효율적이다) 자바 바이트코드는 플랫폼에 독립적이며 모든 자바 가상 머신은 자바 가상 머신 규격에 정의된 대로 자바 바이트코드를 실행한다. 따라서 표준 자바 API까지 동일한 동작을 하도록 구현한 상태에서는 이론적으로 모든 자바 프로그램은 CPU나 운영 체제의 종류와 무관하게 동일하게 동작할 것을 보장한다. - 위키백과
+> JVM(Java Virtual Machine) 자바 **바이트코드**를 실행할 수 있는 주체이다. 일반적으로 **인터프리터**나 **JIT 컴파일 방식**으로 다른 컴퓨터 위에서 바이트코드를 실행할 수 있도록 구현되나 job  [자바 프로세서](https://ko.wikipedia.org/wiki/자바_프로세서)처럼 하드웨어와 소프트웨어를 혼합해 구현하는 경우도 있다. (이론적으로는 100% 하드웨어 구현도 가능하나 비효율적이다) 자바 바이트코드는 플랫폼에 독립적이며 모든 자바 가상 머신은 자바 가상 머신 규격에 정의된 대로 자바 바이트코드를 실행한다. 따라서 표준 자바 API까지 동일한 동작을 하도록 구현한 상태에서는 이론적으로 모든 자바 프로그램은 CPU나 운영 체제의 종류와 무관하게 동일하게 동작할 것을 보장한다. - 위키백과
+
+솔직히 위키백과 내용은 반만 이해가 된다.
 
 ![JvmSpec7](\assets\images\java-study\1\JvmSpec7.png)
 
 출처: [JVM 위키백과](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0)
 
-위선 JVM을 간단히 정의하면 *"CPU나 운영체제에 상관없이 바이트코드를 실행하는 주체"*이다. 여기서 **바이트코드**라는 용어가 나오는데 바이트코드가 무엇인지 먼저 알아보자
+`Java` 프로그램을 실행하면, 자바 컴파일러가 자바 코드를 `byte code`로 변환한다. `JVM`은 바이트코드를 읽어서 기계어로 변환한다. 
+
+`JVM`은 기본 운영체제 및 시스템 하드웨어에 의존하기 않는 인터페이스를 제공하기 때문에 가상머신이라고 한다.
+
+![getStarted-compiler](\assets\images\java-study\1\getStarted-compiler.gif)
+
+출처: <https://www.javaguides.net/2019/02/java-jvm-jre-jdk-explained-with-diagrams.html>
+
+위선 `JVM`을 간단히 정의하면 *"CPU나 운영체제에 상관없이 바이트코드를 실행하는 주체"*이다. 여기서 **바이트코드**라는 용어가 나오는데 바이트코드가 무엇인지 먼저 알아보자
 
 # 바이트코드란 무엇인가
 
@@ -137,6 +146,10 @@ Execution Engine은 바이트코드를 실행한다. 또한 GC(Garbage Collector
 
 # JDK와 JRE의 차이
 
+![Java JDK JRE and JVM](\assets\images\java-study\1\Java JDK JRE and JVM.png)
+
+출처: <https://www.javaguides.net/2019/02/java-jvm-jre-jdk-explained-with-diagrams.html>
+
 ## JRE(Java Runtime Environment)
 
 JRE(Java Runtime Environment)는 java 애플리케이션을 실행하는 데 사용되는 소프트웨어 구성 요소의 번들이다.
@@ -147,6 +160,8 @@ JRE(Java Runtime Environment)는 java 애플리케이션을 실행하는 데 사
 * 자바 프로그램 실행하는데 필요한 클래스 파일
 * 설정 파일
 
+$$ JRE = JVM + Java Packages Classes (util, math, lang, awt, swing etc) + runtime libraries $$
+
 ## JDK(Java Development Kit)
 
 JDK(Java Development Kit)은 자바 프로그램 개발, 디버깅, 컴파일을 실행하기 위한 환경 및 도구를 제공한다.
@@ -154,11 +169,13 @@ JDK(Java Development Kit)은 자바 프로그램 개발, 디버깅, 컴파일을
 **JDK 핵심 요소**
 
 * JRE
-* Development Tools
+* Development Tools(Java compiler, debugger, JShell etc)
 
 ## 둘의 차이
 
-결국 JDK안에 JRE가 포함되는 구조이다. 또한 JVM은 JRE 안에 포함되어 있는 구조이다.
+결국 JDK안에 JRE가 포함되는 구조이다. 또한 JVM은 JRE 안에 포함되어 있는 구조이다. 그래서 요즘 JDK만 다운받으면 JRE가 포함되어 있다.
+
+만약 `Java` 프로그램을 실행만 하고 싶다면, `JRE`만 있으면 된다. 하지만 개발 또는 컴파일을 해야 한다면 `JDK`가 있어야 한다.
 
 # 마무리
 
