@@ -4,7 +4,7 @@ excerpt: "ArrayList, LinkedList, vector의 차이를 공부해보자"
 author_profile: true
 categories:
   - Java
-tags:[Java, List]
+tags: [Java, List]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

@@ -4,7 +4,7 @@ excerpt: "5주차 과제: 클래스"
 author_profile: true
 categories:
   - Java
-tags:[Java, Class, this]
+tags: [Java, Class, this]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

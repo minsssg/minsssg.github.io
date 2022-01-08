@@ -4,7 +4,7 @@ excerpt: "2주차 과제: 자바 데이터 타입, 변수 그리고 배열"
 author_profile: true
 categories:
   - Java
-tags:[Java,Primitive,Literal,Promotion]
+tags: [Java,Primitive,Literal,Promotion]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"

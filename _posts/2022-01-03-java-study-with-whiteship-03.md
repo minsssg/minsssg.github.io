@@ -4,7 +4,7 @@ excerpt: "3주차 과제: 자바 연산자"
 author_profile: true
 categories:
   - Java
-tags:[Java]
+tags: [Java, 연산자]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"
