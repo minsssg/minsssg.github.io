@@ -149,13 +149,41 @@ FishBread fishBread = new FishBread("슈크림", "기본반죽", 500);
 
 # 생성자를 정의하는 방법
 
-생성자는 객체를 생성할 때 호출되는데, 객체 생성의 초기화를 담당한다.
+생성자는 객체를 초기화 하는 데 사용된다.(생성 + 설정) 
 
 클래스를 정의할 때, 생성자를 필수로 들어가야 되며, 생성자를 따로 작성하지 않으면 default 생성자가 컴파일 타임에 작성된다.
 
 ```java
 <access modifier> ClassName (<parameters>) {
     //initialization
+}
+```
+
+**생성자에 대해 알아야 할 사항**
+
+* 생성자 이름은 클래스 이름과 같아야 한다.
+* 생성자는 `return type`이 없다. (`void`가 아니라는 것 주의!)
+* 생성자는 입력을 받을 수 있다.(`parameters`를 가질 수 있다.)
+* `overload`를 할 수 있다.
+
+**생성자 `overload` 하는 방법**
+
+* 입력으로 사용하는 매개변수 수를 다르게 한다.
+* 입력 매개변수의 개수가 같을 경우, 매개변수 타입의 순서에 따라 `overload`할 수 있다.
+
+## 클래스에 생성자가 없을 경우
+
+클래스에 생성자가 하나도 정의되어 있지 않을 경우, `Java` 컴파일러가 자동으로 `default constructor`를 생성한다.(컴파일 타임에)
+
+`default constructor`란 매개변수 뿐만 아니라 블록({}) 내에 아무것도 없는 생성자를 말한다.
+
+```java
+public class ConstructorClass {
+    
+    // default constructor
+    public ConstructorClass {
+        // empty
+    }
 }
 ```
 
