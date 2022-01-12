@@ -187,6 +187,8 @@ public class ConstructorClass {
 }
 ```
 
+만약, 클래스 내에 생성자를 하나라도 정의한다면, `Java` 컴파일러는 `default constructor`를 생성하지 않는다.
+
 # this
 
 `this`는 자신 객체의 참조 변수이다. 그래서 생성자 또는 매서드 내에서 이름이 같은 변수지만, 앞에 `this`를 붙이면서, 구분할 수 가 있다.
