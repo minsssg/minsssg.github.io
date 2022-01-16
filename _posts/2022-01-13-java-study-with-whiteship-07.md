@@ -119,7 +119,7 @@ import 할 때, `import com.javastudy.javapackage.*` 이런 식으로 아스테�
 
 > 참고: import문에 아스테리크(*) 붙이면 해당 패키지 내에 있는 모든 클래스를 참조할 수 있다. 하지만, 이렇게 선언하면 성능에 안좋은 영향을 미치는 줄 알았다. 하지만, 컴파일 시간이 아주 조금 더 걸릴 뿐 성능에 영향을 미치지 않는다고 한다.
 
- ## static import
+## static import
 
 `static import`는 해당 클래스의 `static`맴버(변수 또는 메서드)를 호출할 때, 클래스 명을 생략할 수 있다.
 
