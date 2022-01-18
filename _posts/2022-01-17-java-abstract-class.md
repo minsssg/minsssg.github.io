@@ -8,7 +8,7 @@ tags: [Java, abstract]
 toc: true
 toc_sticky: true
 toc_label: "페이지 목차"
-last_modified_at: 2022-01-17T21:00-24:00
+last_modified_at: 2022-01-17T21:00-00:00
 header:
   teaser: "/assets/images/java-teaser.jpg"
 ---
