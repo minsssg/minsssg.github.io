@@ -205,7 +205,7 @@ public interface VendingMachine extends Cashable, Cardable{
 
 인터페이스 `static` 메서드 역시 `body`를 가질 수 있는데, `default`메서드와 차이점은 바로 상속이 되지 않는다는 점이다.
 
- # 자바 9부터 추가된 private 메서드
+# 자바 9부터 추가된 private 메서드
 
 인터페이스 추상 메서드는 접근 제어자 기본적으로 `public`이다. 왜냐하면, 인터페이스를 구현할 때, 해당 추상 메서드를 재정의해야 하기 때문이다.
 
